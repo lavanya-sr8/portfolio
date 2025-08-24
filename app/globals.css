@@ -2,7 +2,9 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #333333;
+  --primary: #0a8afaf0;
+  --card: #ffffff;
 }
 
 @theme inline {
@@ -12,15 +14,39 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dark {
+  --background: #030303;
+  --foreground: #ffffff;
+  --primary: #0a8afaf0;
+  --card: #1d1d1d; 
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components{
+  .card-shadow {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .circle-icon{
+    @apply flex items-center justify-center rounded-full w-11 h-11 md:w-14 md:h-14 bg-[#f4ebff]/25 dark:bg-[#f4ebff]/10 absolute;
+  }
+
+  .highlight{
+    @apply text-white bg-[var(--primary)] px-5 py-1 rounded-[4px];
+  }
+
+  .section-contents{
+    @apply w-full flex flex-col items-center gap-10 md:gap-[50px]; 
+  }
+
+  .card {
+    @apply rounded-lg;          
+    background-color: var(--card); 
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
 }

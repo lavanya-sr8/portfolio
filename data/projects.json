@@ -1,0 +1,32 @@
+[
+    {
+        "thumbnail": "/streamsphere_home.png",
+        "title": "StreamSphere",
+        "link": {
+            "label": "StreamSphere - A Multimedia Platform",
+            "url": "https://github.com/lavanya-sr8/streamsphere"
+        },
+        "description": "Developed an integrated platform to watch movie trailers, listen to music, and stay up-to-date with the latest news",
+        "languageIcons": ["/mongodb_icon.png", "/express_icon.png", "/react_icon.png", "/node_icon.png"]
+    },
+    {
+        "thumbnail": "/fixnow_services.png",
+        "title": "FixNow",
+        "link": {
+            "label": "FixNow - A Platform for Home Services",
+            "url": "https://github.com/lavanya-sr8/FixNow"
+        },
+        "description": "Implemented an application for effective search of handymen like carpenters, plumbers, etc. according to the localities of customers",
+        "languageIcons": ["/flutter_icon.png", "/firebase_icon.png"]
+    },
+    {
+        "thumbnail": "/currency_converter.png",
+        "title": "Currency Converter",
+        "link": {
+            "label": "A Simple App for converting currencies",
+            "url": "https://github.com/lavanya-sr8/Currency-converter.git"
+        },
+        "description": "A simple currency converter application that converts the amount from one currency to another",
+        "languageIcons": ["/html_icon.png", "/css_icon.png", "/js_icon.png"]
+    }
+]

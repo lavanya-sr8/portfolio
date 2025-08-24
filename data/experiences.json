@@ -1,0 +1,16 @@
+[
+    {
+        "image": "/arista.jpeg",
+        "company": "Arista Networks",
+        "role": "Software Engineer Intern",
+        "description": "Implemented a feature to enable the reset of datagram sequence numbers when sFlow is operated using hardware accelerators. Rectified bugs and enhanced functionalities in sFlow CLI dealing with sampling at switch interfaces.",
+        "date": "May 2025 - July 2025"
+    },
+    {
+        "image": "/samsung_prism.png",
+        "company": "Samsung PRISM",
+        "role": "Project Intern",
+        "description": "Developed a neural network based system comprising of cascaded CRN architecture along with LSTM, to perform Acoustic Echo Cancellation (AEC) to improve the quality of audio in real-time communication applications.",
+        "date": "October 2024 - May 2025"
+    }
+]

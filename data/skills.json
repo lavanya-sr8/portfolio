@@ -1,0 +1,52 @@
+[
+    {
+        "name": "C",
+        "icon": "/c_icon.png"
+    },
+    {
+        "name": "Python",
+        "icon": "/py_icon.png"
+    },
+    {
+        "name": "Java",
+        "icon": "/java_icon.png"
+    },
+    {
+        "name": "TensorFlow",
+        "icon": "/tf_icon.png"   
+    },
+    {
+        "name": "scikit-learn",
+        "icon": "/sklearn_icon.png"   
+    },
+    {
+        "name": "HTML",
+        "icon": "/html_icon.png"
+    },{
+        "name": "CSS",
+        "icon": "/css_icon.png"
+    },{
+        "name": "JavaScript",
+        "icon": "/js_icon.png"
+    },
+    {
+        "name": "Flutter",
+        "icon": "/flutter_icon.png"
+    },
+    {
+        "name": "Node.js",
+        "icon": "/node_icon.png"
+    },
+    {
+        "name": "Express.js",
+        "icon": "/express_icon.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "/mysql_icon.png"
+    },
+    {
+        "name": "MongoDB",
+        "icon": "/mongodb_icon.png"
+    }
+]
