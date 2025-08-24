@@ -10,7 +10,7 @@ const Contact = () => {
     >
       {/* Heading */}
       <h2 className="font-semibold text-[22px] md:text-[40px] text-center">
-        Let's Connect! ✨
+        Let&apos;s Connect! ✨
       </h2>
       <div className="flex flex-row gap-4 justify-center">
         <a

@@ -5,8 +5,6 @@ import projects from "@/data/projects.json";
 import Project from "./Project";
 import Image from "next/image";
 
-type Props = {};
-
 const Projects = () => {
     return (
         <SectionContainer id="projects">

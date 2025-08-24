@@ -4,9 +4,7 @@ import SectionContainer from "../Section/SectionContainer";
 import SectionHeader from "../Section/SectionHeader";
 import Experience from "./Experience";
 
-type Props = {};
-
-const Experiences = (props: Props) => {
+const Experiences = () => {
     return (
         <SectionContainer id="experience">
             <div className="section-contents mt-[66px] mb-[66px] md:mb-[43px] md:mx-[64px]">
