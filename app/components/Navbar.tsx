@@ -3,6 +3,7 @@
 import React, { useCallback, useEffect, useState } from "react";
 import cn from "classnames";
 import NavItem from "./NavItem"; // import component
+import Reveal from "./Reveal";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -46,17 +47,14 @@ const Navbar = () => {
         onClick={() => setIsOpen((prevVal) => !prevVal)}
       >
         <img
-          className="block dark:hidden"
-          src="/menu_icon_light.svg"
+          src="/menu_icon.svg"
           alt="menu icon"
-        />
-        <img
-          className="hidden dark:block"
-          src="/menu_icon_dark.svg"
-          alt="menu icon"
+          width={19}
+          height={19}
         />
       </button>
 
+      <Reveal initialY={-20} duration={0.5}>
       <nav
         className={cn(
           "bg-background card-shadow p-3 rounded md:block duration-350 ease-in-out",
@@ -109,6 +107,7 @@ const Navbar = () => {
           />
         </ul>
       </nav>
+      </Reveal>
     </div>
   );
 };

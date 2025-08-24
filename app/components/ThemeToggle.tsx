@@ -16,7 +16,7 @@ const ThemeToggle = () => {
     }, []);
 
     useEffect(() => {
-        document.body.classList.toggle("dark", isDarkMode);
+        document.documentElement.classList.toggle("dark", isDarkMode);
         if(typeof window !== "undefined") {
             localStorage.setItem("theme", isDarkMode ? "dark" : "light");
         }
@@ -26,8 +26,8 @@ const ThemeToggle = () => {
         setIsDarkMode((prev) => !prev);
     }
     
-    return <button onClick={toggleTheme} className="cursor-pointer fixed top-[58px] left-6 md:top-16 md:left-auto md:right-[42px] w-12 h-[18px] bg-black/90 dark:bg-[#efefef] rounded-lg z-50 flex items-center justify-end dark:justify-start px-1">
-        {isDarkMode ? <Image src="/sun_icon.svg" alt="Sun icon" height={16} width={16}/> : <Image src="/moon_icon.svg" alt="Moon icon" height={16} width={21}/>}
+    return <button onClick={toggleTheme} className="cursor-pointer fixed top-[58px] left-6 md:top-16 md:left-auto md:right-[42px] z-50">
+        {isDarkMode ? <Image src="/sun_icon.svg" alt="Sun icon" height={25} width={25}/> : <Image src="/moon_icon.svg" alt="Moon icon" height={25} width={25}/>}
     </button>
 };
 

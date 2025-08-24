@@ -19,13 +19,15 @@ const Projects = () => {
                         ))
                     }
                 </div>
+                <div className="group">
                 <a 
                     href="https://github.com/lavanya-sr8"
-                    className="bg-[var(--primary)] text-white px-5 py-3 rounded-lg flex items-center gap-2 text-base md:text-lg mx-auto mt-10"
+                    className="bg-[var(--primary)] text-white px-5 py-3 rounded-lg flex items-center gap-2 text-base md:text-lg mx-auto mt-10 group-hover:scale-103 duration-250"
                 >
                     Check out my GitHub
                     <img src="/github_logo_dark.svg" alt="GitHub icon"/>
                 </a>
+                </div>
             </div>
         </SectionContainer>
     )
